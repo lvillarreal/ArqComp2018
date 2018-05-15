@@ -1,0 +1,20 @@
+RESULTADO EJERCICIO 6
+
+
+	-> ALU CON RCA CON RESTA IMPLEMENTADA
+
+		|---------------------------------|
+		|Slow 1.1V 85C Model | 428.63 MHz |
+		|Slow 1.1V 0C  Model | 428.63 MHz |
+		|---------------------------------|
+
+	-> ALU CON RCA SIN RESTA IMPLEMENTADA
+		
+		|---------------------------------|
+		|Slow 1.1V 85C Model | 405.68 MHz |
+		|Slow 1.1V 0C  Model | 401.28 MHz |
+		|---------------------------------|
+
+Se observa que no mejora la frecuencia máxima de operación, ya que la frecuencia con resta implementada es mucho mayor que
+la frecuencia sin resta implementada. En base a los resultados obtenidos, no se justifica la eliminación de dicha operación.
+
